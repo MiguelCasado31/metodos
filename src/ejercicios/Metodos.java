@@ -3,6 +3,7 @@ package ejercicios;
 public class Metodos {
 	public static void main (String [] args) {
 		System.out.println(numero(87));
+		System.out.println(nDecimal('M'));
 	}
 	public static String String  (String varUNo, String varDos) {
 		String varUno = "adiós";
@@ -16,8 +17,9 @@ public class Metodos {
 	
 	return  var3;
 	}
-	public static void	asci () {
-	;
+	public static double nDecimal (char var1) {
+	double var2=(double) var1;
+	return var2;
 	}
 	
 }
